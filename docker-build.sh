@@ -1,5 +1,6 @@
 #!/bin/bash
 # This script builds the project and creates a Docker image.
+
 mvn clean package -DskipTests=true
 # docker login info
 USER=test
